@@ -1,0 +1,99 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    text-align: center;         /*centrar*/
+    background-color: blue;
+    background-repeat: no-repeat;
+    margin-left: 0;
+}
+header{
+    background-color: #333;
+    margin: 0;
+    padding: 10px;
+    color: white;
+}
+nav ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 50px;
+    margin: 0px;
+}
+nav ul li{
+    margin: 0 140px;
+    list-style-type: none;
+    border-left: 2px solid black;
+    border-right: 2px solid black;
+}
+a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    transition: color 1s;
+}
+a:hover{
+    color: aqua;
+}
+div{
+    display: flex;
+    flex-direction: row;
+    align-items: start;
+}
+main{
+    display: flex;
+    background-color: white;
+    flex-direction: column;
+    align-items: center;
+    flex: 3;
+    padding-left: 40px;
+    padding-right: 40px;
+    margin-bottom: 10px;
+}
+.titulo{
+    color: gold;
+    text-transform: uppercase;
+}
+aside{
+    padding: 40px;
+    height: 180vh;
+    background-color: #9fd5d1;
+}
+aside h3{
+    text-align: center;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 50%;
+    margin: 0;
+}
+textarea{
+    padding: 40px;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+input{
+    padding: 20px;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+button{
+    background-color: beige;
+    border-radius: 10px;
+    width: 50%;
+    padding: 10px;
+    text-align: center;
+    margin: 0 auto;  
+    transition: 0.1s;
+}   
+button:hover{
+    background-color: aquamarine;
+    color: blue;
+}
+footer{
+    margin-top: 10px;
+    padding: 10px;
+    background-color: black;
+    color: aliceblue;
+}
